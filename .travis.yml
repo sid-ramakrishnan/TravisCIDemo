@@ -12,3 +12,4 @@ install:
 
 script: 
   - pytest test_simple.py
+  - python -m coverage report -m
