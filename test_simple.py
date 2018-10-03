@@ -4,5 +4,9 @@ import io
 import os
 
 
-def test_simple():
-    assert(2/8 == 0.25 and np.array([2])/np.array([8])==np.array([0.25]))
+def test_simple_division():
+    assert(2/8 == 0.25) 
+
+def test_numpy_division():
+	assert np.array([2])/np.array([8])==0.25
+
