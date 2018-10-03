@@ -1,2 +1,1 @@
 numpy==1.12.1
-precommit-hook==0.2.1
