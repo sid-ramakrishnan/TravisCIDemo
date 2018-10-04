@@ -10,4 +10,4 @@ def test_simple_division():
 def test_input_size():
     f=open("input.txt","rb")
     char=f.readline().strip().decode("utf-8")
-    assert len(char)==6
+    assert len(char)==7
