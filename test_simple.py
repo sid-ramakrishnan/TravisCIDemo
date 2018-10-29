@@ -6,7 +6,7 @@ import os
 
 def test_simple_division():
     assert (2/8 == 0.25)
-    assert "abc" == "abc"
+    assert "abc" == "abc1"
 
 def test_input_size():
     f=open("input.txt","rb")
